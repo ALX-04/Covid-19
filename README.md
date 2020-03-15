@@ -1,7 +1,7 @@
 # Covid-19
 
-#apt install nodejs
-#npm install request
-#npm install chalk
-#npm install chalk-animation
-#node covid-19.js
+$apt install nodejs <br>
+$npm install request <br>
+$npm install chalk <br>
+$npm install chalk-animation <br>
+$node covid-19.js <br>
