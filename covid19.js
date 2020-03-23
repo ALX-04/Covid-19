@@ -34,8 +34,7 @@ a('https://api.kawalcorona.com/indonesia', function(error, response, body){
             var counter1 = jsonData[1];
             var t= (' Terkonfirmasi   : '+counter.positif+(' Kasus')+
                      '\n Berhasil Pulih  : '+counter.sembuh+(' Kasus')+
-                     '\n Meninggal       : '+counter.meninggal+(' Kasus'+
-                     '\n Terakhir Update : '+counter1.lastupdate));
+                     '\n Meninggal       : '+counter.meninggal+(' Kasus'));
 
             chalkAnimation.neon(t);
             setTimeout(() => {
